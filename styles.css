@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+* {
+    border: 1px solid ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.calculator {
+    width: 50%;
+}
+h1 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers > button {
+    height: 25%;
+    width: 25%;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.secondary {
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    height: 70px;
+}
+.primary {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;    
+    height: 100px;
+}
+.clear{
+    padding: 10px;
+}
+.clear > button {
+    background-color: white;
+    border: none;
+    width: 100%;
+    font-size: 1rem;    
+    font-weight: bold;
+    cursor: pointer;
+}
